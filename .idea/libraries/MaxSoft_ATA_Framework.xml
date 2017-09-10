@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="MaxSoft-ATA-Framework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ext/MaxSoft-ATA-Framework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ext/MaxSoft-ATA-Framework.jar!/" />
+    </SOURCES>
+  </library>
+</component>
