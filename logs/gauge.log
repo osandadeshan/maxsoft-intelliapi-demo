@@ -33533,3 +33533,41 @@ java.lang.Thread.run(Thread.java:745)
 17:28:29.499 
 Total time taken: 2.114s
 17:28:29.499 Updates are available. Run gauge --check-updates for more info.
+18:44:05.086 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+18:44:06.087 Unable to send analytics data, timed out
+18:53:57.355 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+18:53:58.360 Unable to send analytics data, timed out
+18:53:59.361 Unable to send analytics data, timed out
+18:54:01.464 Checking updates...
+18:54:36.165 Plugin [Html Report] with pid [27924] has exited
+18:54:36.366 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:54:36.366 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18:54:36.367 
+Total time taken: 9.131s
+18:55:39.770 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+18:55:40.778 Unable to send analytics data, timed out
+18:55:41.778 Unable to send analytics data, timed out
+18:55:43.918 Checking updates...
+18:56:06.926 Plugin [Html Report] with pid [27764] has exited
+18:56:07.130 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:56:07.130 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18:56:07.130 
+Total time taken: 7.443s
+19:57:43.917 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+19:57:44.922 Unable to send analytics data, timed out
+19:57:45.922 Unable to send analytics data, timed out
+19:57:48.783 Checking updates...
+19:58:14.000 Plugin [Html Report] with pid [24608] has exited
+19:58:14.201 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:58:14.202 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:58:14.202 
+Total time taken: 3.501s
+19:59:44.558 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+19:59:45.563 Unable to send analytics data, timed out
+19:59:46.563 Unable to send analytics data, timed out
+19:59:49.212 Checking updates...
+20:00:18.283 Plugin [Html Report] with pid [30192] has exited
+20:00:18.715 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:00:18.715 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+20:00:18.716 
+Total time taken: 10.741s
