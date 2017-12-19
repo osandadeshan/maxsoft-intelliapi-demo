@@ -1,56 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="509bdd37-1bf1-4f60-8e82-e80122098142" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_json_path_2_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_2_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_common_2_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_xml_path_2_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_gauge_gauge_java_0_6_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_3_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_3_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MaxSoft-ATA-Framework-Demo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/create_deck.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/database_test.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/get_all_decks_list.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/get_all_medicines(token_from_datastore).spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/get_all_medicines(token_from_text_file).spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/login.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/update_deck.spec" afterPath="" />
+    <list default="true" id="8931d14c-c4ee-4336-8de8-9f95617cebda" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_gitignore" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/AllStepsDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/com/maxsoft/ata/step/AllStepsDefinitions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/MaxSoft-ATA-Framework.jar" afterPath="$PROJECT_DIR$/ext/MaxSoft-ATA-Framework.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/api_document/api_doc.xlsx" afterPath="$PROJECT_DIR$/resources/api_document/api_doc.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AllStepsDefinitions.class" afterPath="$PROJECT_DIR$/target/test-classes/AllStepsDefinitions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gauge/failures.json" afterPath="$PROJECT_DIR$/.gauge/failures.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/default/default.properties" afterPath="$PROJECT_DIR$/env/default/default.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/api.log" afterPath="$PROJECT_DIR$/logs/api.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/gauge.log" afterPath="$PROJECT_DIR$/logs/gauge.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/font-awesome.css" afterPath="$PROJECT_DIR$/reports/html-report/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/normalize.css" afterPath="$PROJECT_DIR$/reports/html-report/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/open-sans.css" afterPath="$PROJECT_DIR$/reports/html-report/css/open-sans.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/style.css" afterPath="$PROJECT_DIR$/reports/html-report/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Bold/OpenSans-Bold.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Bold/OpenSans-Bold.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Italic/OpenSans-Italic.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Italic/OpenSans-Italic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Light/OpenSans-Light.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Light/OpenSans-Light.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Regular/OpenSans-Regular.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Regular/OpenSans-Regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/index.html" afterPath="$PROJECT_DIR$/reports/html-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js" afterPath="$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/clipboard.min.js" afterPath="$PROJECT_DIR$/reports/html-report/js/clipboard.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/jquery-3.1.0.min.js" afterPath="$PROJECT_DIR$/reports/html-report/js/jquery-3.1.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/main.js" afterPath="$PROJECT_DIR$/reports/html-report/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/search_index.js" afterPath="$PROJECT_DIR$/reports/html-report/js/search_index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/api_requests/login/login.txt" afterPath="$PROJECT_DIR$/resources/api_requests/login/login.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AllStepsDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/AllStepsDefinitions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/specs/01. Get PI Token.html" afterPath="$PROJECT_DIR$/reports/html-report/specs/01. Get PI Token.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/access_tokens/access_token_to_be_used_for_testing.txt" afterPath="$PROJECT_DIR$/resources/access_tokens/access_token_to_be_used_for_testing.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,12 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/env/default/default.properties">
+      <file leaf-file-name="AllStepsDefinitions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/ata/step/AllStepsDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1921">
+              <caret line="121" column="21" lean-forward="false" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,41 +38,14 @@
       <file leaf-file-name="01. Get PI Token.spec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/01. Get PI Token.spec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07. Create Question.spec" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specs/07. Create Question.spec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="28" column="73" lean-forward="true" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+            <state relative-caret-position="408">
+              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Specification" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,9 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/AllStepsDefinitions.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/specs/new test.spec" />
+        <option value="$PROJECT_DIR$/src/test/java/com/maxsoft/ata/step/AllStepsDefinitions.java" />
+        <option value="$PROJECT_DIR$/specs/01. Get PI Token.spec" />
       </list>
     </option>
   </component>
@@ -150,39 +85,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="api_document" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -207,15 +117,27 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MaxSoft-ATA-Framework-Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MaxSoft-ATA-Framework-Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="step" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ext/MaxSoft-ATA-Framework.jar!/" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,34 +151,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gauge Execution.User login with valid credentials">
+  <component name="RunManager" selected="Gauge Execution.01. Get PI Token.spec">
     <configuration name="01. Get PI Token.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/01. Get PI Token.spec" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="MaxSoft-ATA-Framework-Demo" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-    </configuration>
-    <configuration name="07. Create Question.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/07. Create Question.spec" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="MaxSoft-ATA-Framework-Demo" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-    </configuration>
-    <configuration name="User login with valid credentials" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/new test.spec:8" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -347,47 +245,34 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.01. Get PI Token.spec" />
-      <item index="1" class="java.lang.String" itemvalue="Gauge Execution.07. Create Question.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.User login with valid credentials" />
-    </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.User login with valid credentials" />
-        <item index="1" class="java.lang.String" itemvalue="Gauge Execution.07. Create Question.spec" />
-        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.01. Get PI Token.spec" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.01. Get PI Token.spec" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="509bdd37-1bf1-4f60-8e82-e80122098142" name="Default" comment="" />
-      <created>1510492440802</created>
+      <changelist id="8931d14c-c4ee-4336-8de8-9f95617cebda" name="Default" comment="" />
+      <created>1513700365721</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1510492440802</updated>
+      <updated>1513700365721</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="01__Get_PI_Token_spec - 2017.11.12 at 18h 54m 36s.xml">
+    <history-entry file="01__Get_PI_Token_spec - 2017.12.19 at 21h 57m 13s.xml">
       <configuration name="01. Get PI Token.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="07__Create_Question_spec - 2017.11.12 at 18h 56m 07s.xml">
-      <configuration name="07. Create Question.spec" configurationId="executeSpecs" />
+    <history-entry file="01__Get_PI_Token_spec - 2017.12.19 at 21h 59m 55s.xml">
+      <configuration name="01. Get PI Token.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="User_login_with_valid_credentials - 2017.11.12 at 19h 58m 14s.xml">
-      <configuration name="User login with valid credentials" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="User_login_with_valid_credentials - 2017.11.12 at 20h 00m 18s.xml">
-      <configuration name="User login with valid credentials" configurationId="executeSpecs" />
+    <history-entry file="01__Get_PI_Token_spec - 2017.12.19 at 22h 01m 31s.xml">
+      <configuration name="01. Get PI Token.spec" configurationId="executeSpecs" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -402,8 +287,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -430,59 +315,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/AllStepsDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/ata/step/AllStepsDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="1921">
+          <caret line="121" column="21" lean-forward="false" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#2804#2805#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3164#3165#0" expanded="true" />
-            <element signature="e#4625#4626#0" expanded="true" />
-            <element signature="e#4682#4683#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/07. Create Question.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="28" column="73" lean-forward="true" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/new test.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/01. Get PI Token.spec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -490,9 +336,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MaxSoft-ATA-Framework-Demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>MaxSoft-ATA-Framework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

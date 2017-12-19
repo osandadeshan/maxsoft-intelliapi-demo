@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Login Specification":["specs\\new test.html"]}};
+var index = {"Tags":{"get_pi_token":["specs\\01. Get PI Token.html"]},"Specs":{"Get PI Token Specification":["specs\\01. Get PI Token.html"]}};
