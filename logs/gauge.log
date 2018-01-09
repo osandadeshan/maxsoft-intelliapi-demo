@@ -33602,3 +33602,129 @@ Total time taken: 19.913s
 22:01:31.800 Scenarios:	1 executed	1 passed	0 failed	0 skipped
 22:01:31.800 
 Total time taken: 23.701s
+14:38:57.486 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+14:38:59.963 Checking updates...
+14:39:01.312 Runner connection error: Runner with pid 10736 quit unexpectedly(exit status 1).
+14:39:01.312 Error while killing runner: invalid argument
+14:39:01.312 Failed to start gauge API: Runner with pid 10736 quit unexpectedly(exit status 1).
+14:39:37.950 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+14:39:40.002 Checking updates...
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:15 Request Timeout => 'Given that a user needs to invoke "Get PI Token"'
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:16 Request Timeout => 'And the user set the request authentication configurations as follows <table>'
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:22 Request Timeout => 'And the user set the request attributes as follows <table>'
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:27 Request Timeout => 'When the user invokes the API'
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:28 Request Timeout => 'Then the status code for the request is "201"'
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:29 Request Timeout => 'And the JSON Path Assertions for the response should be equal to the following <table>'
+14:43:09.913 [ValidationError] C:\Users\UnimaOs\IdeaProjects\MaxSoft-ATA-Framework-Demo\specs\01. Get PI Token.spec:33 Request Timeout => 'And save the access token which is the attribute value of "data" in the response'
+14:47:04.518 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+14:47:05.520 Unable to send analytics data, timed out
+14:47:06.520 Unable to send analytics data, timed out
+14:47:08.534 Checking updates...
+14:47:31.299 # Get PI Token Specification
+14:47:31.305 ## Invoke PI API using valid username and password and save the access token inside the text file
+14:47:31.313 * Given that a user needs to invoke "Get PI Token"
+14:47:34.178 * And the user set the request authentication configurations as follows 
+
+   |Configuration Property Name       |Configuration Property Value|
+   |----------------------------------|----------------------------|
+   |isAccessTokenIncluded             |N/A                         |
+   |isAccessTokenRetrievedFromTextFile|N/A                         |
+   |accessTokenString                 |N/A                         |
+14:47:34.193 * And the user set the request attributes as follows 
+
+   |Attribute Value In JSON Template|Attribute Value To Be Set|
+   |--------------------------------|-------------------------|
+   |#username                       |osanda                   |
+   |#password                       |Password1                |
+14:47:34.403 * When the user invokes the API
+14:47:40.717 * Then the status code for the request is "201"
+14:47:40.742 Failed Step: Then the status code for the request is "201"
+14:47:40.742 Error Message: java.lang.AssertionError: The expected status code for the request is not match with the actual status code
+ expected [201] but found [401]
+14:47:40.742 Specification: specs\01. Get PI Token.spec:28
+14:47:40.742 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertEquals(Assert.java:123)
+org.testng.Assert.assertEquals(Assert.java:176)
+com.maxsoft.ata.request.BaseClass.verifyResponseStatusCode(BaseClass.java:771)
+com.maxsoft.ata.request.CommonStepDefinitions.verifyResponseStatusCode(CommonStepDefinitions.java:183)
+com.maxsoft.ata.step.AllStepsDefinitions.verifyResponseStatusCode(AllStepsDefinitions.java:74)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:91)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:105)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:37)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:86)
+java.lang.Thread.run(Thread.java:745)
+14:47:40.984 Plugin [Html Report] with pid [10012] has exited
+14:47:41.285 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:47:41.285 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:47:41.286 
+Total time taken: 9.927s
+21:06:10.975 Gauge Install ID: 486879c2-413b-4545-af0c-869629921c34
+21:06:11.977 Unable to send analytics data, timed out
+21:06:12.977 Unable to send analytics data, timed out
+21:06:14.730 Checking updates...
+21:06:39.317 # Get PI Token Specification
+21:06:39.320 ## Invoke PI API using valid username and password and save the access token inside the text file
+21:06:39.326 * Given that a user needs to invoke "Get PI Token"
+21:06:42.544 * And the user set the request authentication configurations as follows 
+
+   |Configuration Property Name       |Configuration Property Value|
+   |----------------------------------|----------------------------|
+   |isAccessTokenIncluded             |N/A                         |
+   |isAccessTokenRetrievedFromTextFile|N/A                         |
+   |accessTokenString                 |N/A                         |
+21:06:42.576 * And the user set the request attributes as follows 
+
+   |Attribute Value In JSON Template|Attribute Value To Be Set|
+   |--------------------------------|-------------------------|
+   |#username                       |osanda                   |
+   |#password                       |Password1                |
+21:06:42.957 * When the user invokes the API
+21:06:50.397 * Then the status code for the request is "201"
+21:06:50.567 Failed Step: Then the status code for the request is "201"
+21:06:50.567 Error Message: java.lang.AssertionError: The expected status code for the request is not match with the actual status code
+ expected [201] but found [401]
+21:06:50.567 Specification: specs\01. Get PI Token.spec:28
+21:06:50.567 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertEquals(Assert.java:123)
+org.testng.Assert.assertEquals(Assert.java:176)
+com.maxsoft.ata.request.BaseClass.verifyResponseStatusCode(BaseClass.java:771)
+com.maxsoft.ata.request.CommonStepDefinitions.verifyResponseStatusCode(CommonStepDefinitions.java:183)
+com.maxsoft.ata.step.AllStepsDefinitions.verifyResponseStatusCode(AllStepsDefinitions.java:74)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:91)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:105)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:37)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:86)
+java.lang.Thread.run(Thread.java:745)
+21:06:50.898 Plugin [Html Report] with pid [9368] has exited
+21:06:51.233 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:06:51.233 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:06:51.233 
+Total time taken: 11.436s

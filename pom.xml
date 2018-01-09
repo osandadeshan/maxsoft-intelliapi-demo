@@ -10,6 +10,13 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.maxsoft.ata</groupId>
+            <artifactId>MaxSoft-ATA-Framework</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/ext/MaxSoft-ATA-Framework.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.21</version>
@@ -86,8 +93,12 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <src.dir>src/main/java</src.dir>
+    </properties>
+
     <build>
-        <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
@@ -107,5 +118,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>development</id>
+            <properties>
+                <src.dir>${project.build.directory}/src</src.dir>
+            </properties>
+        </profile>
+    </profiles>
 
 </project>
