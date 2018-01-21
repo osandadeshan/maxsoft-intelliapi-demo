@@ -1,6 +1,9 @@
 {
-	"Args": [],
-	"FailedItems": [
-		"specs\\01. Get PI Token.spec:13"
-	]
+	"Args": [
+		"run",
+		"--machine-readable",
+		"--hide-suggestion",
+		"--simple-console"
+	],
+	"FailedItems": []
 }
