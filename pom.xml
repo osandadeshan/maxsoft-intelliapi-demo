@@ -4,17 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.maxsoft.ata</groupId>
+    <groupId>com.maxsoft.ata.demo</groupId>
     <artifactId>MaxSoft-ATA-Framework-Demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <dependencies>
         <dependency>
-            <groupId>com.maxsoft.ata</groupId>
-            <artifactId>MaxSoft-ATA-Framework</artifactId>
-            <version>1.0</version>
+            <groupId>com.maxsoft.ata.demo</groupId>
+            <artifactId>MaxSoft-ATA-Framework-v1.1.0</artifactId>
+            <version>1.1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/ext/MaxSoft-ATA-Framework.jar</systemPath>
+            <systemPath>${project.basedir}/ext/MaxSoft-ATA-Framework-v1.1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.thoughtworks.gauge</groupId>
+            <artifactId>gauge-java</artifactId>
+            <version>0.6.6</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -30,11 +35,6 @@
             <groupId>com.jayway.restassured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>2.9.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.thoughtworks.gauge</groupId>
-            <artifactId>gauge-java</artifactId>
-            <version>0.6.5</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
