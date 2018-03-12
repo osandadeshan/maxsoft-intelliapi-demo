@@ -1,9 +1,7 @@
 {
 	"Args": [
 		"run",
-		"--machine-readable",
-		"--hide-suggestion",
-		"--simple-console"
+		"--dir=C:\\Users\\UnimaOs\\IdeaProjects\\MaxSoft-ATA-Framework-Demo"
 	],
 	"FailedItems": []
 }
