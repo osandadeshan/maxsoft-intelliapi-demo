@@ -7,6 +7,12 @@ Description  	: This is an executable specification file which follows markdown 
 
 
 
+Get configurations of the testing environment
+---------------------------------------------
+* Configurations of the testing environment
+
+
+
 Saving values to Data Store
 ---------------------------
 * And the user save the values inside data stores as follows
@@ -159,6 +165,8 @@ tags: get_pi_token, staging
     |Header Name    |Is Data Store Used?|Data Store Type|Data Store Variable Name|Header Value                        |
     |---------------|-------------------|---------------|------------------------|------------------------------------|
     |header1        |n                  |               |                        |<file:/resources/texts/header1.txt> |
+    |header2        |n                  |               |                        |<file:/resources/texts/header1.txt> |
+    |header3        |n                  |               |                        |<file:/resources/texts/header1.txt> |
 * And the user set the request attributes using data stores as follows
     |Attribute Value In JSON Template|Is Data Store Used?|Data Store Type|Data Store Variable Name|Attribute Value To Be Set            |
     |--------------------------------|-------------------|---------------|------------------------|-------------------------------------|
