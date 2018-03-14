@@ -6,7 +6,7 @@ Owner      	    : Osanda Deshan
 Description  	: This is an executable specification file which follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
 
-tags: add_expert_deck_to_my_deck
+tags: add_expert_deck_to_my_deck, ci_ready
 
 
 

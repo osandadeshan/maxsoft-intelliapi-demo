@@ -6,7 +6,7 @@ Owner      		: Osanda Deshan
 Description  	: This specification covers delete a deck scenarios from the aggregation service
 
 
-tags: aggregation_service, deck_management, delete_a_deck
+tags: aggregation_service, deck_management, delete_a_deck, ci_ready
 
 
 

@@ -6,7 +6,7 @@ Owner      	    : Osanda Deshan
 Description  	: This is an executable specification file which follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
 
-tags: feedback, send_feedback-negative_tests, negative
+tags: feedback, send_feedback-negative_tests, negative, ci_ready
 
 
 

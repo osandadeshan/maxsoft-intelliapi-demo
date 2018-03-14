@@ -6,7 +6,7 @@ Owner      		: Osanda Deshan
 Description  	: This specification covers copy decks scenarios from the aggregation service
 
 
-tags: aggregation_service, deck_management, copy_decks
+tags: aggregation_service, deck_management, copy_decks, ci_ready
 
 
 

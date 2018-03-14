@@ -6,7 +6,7 @@ Owner      		: Osanda Deshan
 Description  	: This specification covers recommendation scenarios from the aggregation service
 
 
-tags: aggregation_service, activity
+tags: aggregation_service, activity, ci_ready
 
 
 * Given that a user needs to invoke "Activity API in Aggregation Service"

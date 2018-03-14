@@ -6,7 +6,7 @@ Owner      		: Osanda Deshan
 Description  	: This is an executable specification file which follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
 
-tags: create_question, create_question_mcq_type, create_question-positive_tests, positive
+tags: create_question, create_question_mcq_type, create_question-positive_tests, positive, ci_ready
 
 
 table: /resources/data_driven_test_csv/create_question/aggregation_service/create_question_mcq_type-positive_tests.csv
