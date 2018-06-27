@@ -1,6 +1,9 @@
 /target
-/logs
+/src
 /.gauge
 /.idea
-/MaxSoft-ATA-Framework-Demo.iml
-/libs
+/logs
+/reports
+/smart_flashcards_api_test_automation.iml
+/docs
+/specs/SKU/Edit SKU
