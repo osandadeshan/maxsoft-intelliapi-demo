@@ -1,0 +1,62 @@
+<testsuites>
+	<testsuite id="1" tests="4" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Staging BVT\Expert Deck Service\Expert Deck Management in Expert Deck Service.spec" time="11.791" timestamp="2018-06-27T19:05:57" name="Expert Deck Management in Expert Deck Service Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Expert Deck Management in Expert Deck Service Specification" name="Create an Expert Deck using all the attributes in the contract" time="2.944"></testcase>
+		<testcase classname="Expert Deck Management in Expert Deck Service Specification" name="Edit the previously created deck" time="2.814"></testcase>
+		<testcase classname="Expert Deck Management in Expert Deck Service Specification" name="Get the previously created deck" time="3.172"></testcase>
+		<testcase classname="Expert Deck Management in Expert Deck Service Specification" name="Delete the previously created deck" time="2.861"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="2" tests="1" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Access Token\Get Production PI Token.spec" time="10.330" timestamp="2018-06-27T19:05:57" name="Get Production PI Token Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Get Production PI Token Specification" name="Invoke PI API in Production Environment using valid username and password and save the access token inside the text file" time="10.330"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="3" tests="1" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Staging BVT\1. Get Production PI Token.spec" time="3.164" timestamp="2018-06-27T19:05:57" name="Get Production PI Token Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Get Production PI Token Specification" name="Invoke PI API in Production Environment using valid username and password and save the access token inside the text file" time="3.164"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="4" tests="1" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Staging BVT\Aggregation Service\Activity API in Aggregation Service.spec" time="47.075" timestamp="2018-06-27T19:05:57" name="Activity API in Aggregation Service Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Activity API in Aggregation Service Specification" name="Sending a new activity information using valid payload" time="47.075"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="5" tests="4" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Staging BVT\Aggregation Service\Deck Management in Aggregation Service.spec" time="11.089" timestamp="2018-06-27T19:05:57" name="Deck Management in Aggregation Service Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Deck Management in Aggregation Service Specification" name="Create a Deck only using deck title and userId" time="3.262"></testcase>
+		<testcase classname="Deck Management in Aggregation Service Specification" name="Edit the previously created deck" time="2.512"></testcase>
+		<testcase classname="Deck Management in Aggregation Service Specification" name="Get the previously created deck" time="2.553"></testcase>
+		<testcase classname="Deck Management in Aggregation Service Specification" name="Delete the previously created deck" time="2.762"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="6" tests="10" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Staging BVT\Aggregation Service\Recommendation API in Aggregation Service.spec" time="31.564" timestamp="2018-06-27T19:05:57" name="Recommendation API in Aggregation Service Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using valid personId and valid deckId" time="3.185"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using invalid personId and valid deckId" time="3.798"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using empty personId and valid deckId" time="2.709"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using null personId and valid deckId" time="3.166"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using valid personId and invalid deckId" time="2.786"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using valid personId and non-existing deckId" time="4.379"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using valid personId and empty deckId" time="3.282"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards using valid personId and null deckId" time="3.119"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards only using valid personId" time="2.478"></testcase>
+		<testcase classname="Recommendation API in Aggregation Service Specification" name="Recommendation for the next cards only using valid deckId" time="2.662"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="7" tests="4" failures="0" package="C:\Users\UnimaOs\IdeaProjects\MaxSoft-IntelliAPI-Demo\specs\Staging BVT\Deck Service\Deck Management in Deck Service.spec" time="12.942" timestamp="2018-06-27T19:05:57" name="Deck Management in Deck Service Specification" errors="0" hostname="LKSRIWL-6PY9F72">
+		<properties></properties>
+		<testcase classname="Deck Management in Deck Service Specification" name="Create a Deck only using deck title and userId" time="4.908"></testcase>
+		<testcase classname="Deck Management in Deck Service Specification" name="Edit the previously created deck" time="3.129"></testcase>
+		<testcase classname="Deck Management in Deck Service Specification" name="Get the previously created deck" time="2.620"></testcase>
+		<testcase classname="Deck Management in Deck Service Specification" name="Delete the previously careated deck" time="2.285"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>
