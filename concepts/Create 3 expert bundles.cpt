@@ -18,7 +18,7 @@ This is a concept file with following syntax for each concept.
      |Attribute Value In JSON Template|Is Data Store Used?|Data Store Type|Data Store Variable Name|Attribute Value To Be Set|
      |#subjectId                      |n                  |               |                        |Information Security3    |
      |#title                          |n                  |               |                        |Network Security3        |
-     |#status                         |n                  |               |                        |false                    |
+     |#status                         |n                  |               |                        |true                     |
      |#previewcardIds                 |n                  |               |                        |true                     |
      |#skuId                          |n                  |               |                        |12345                    |
      |#bookAuthor                     |n                  |               |                        |Amoma Gamage             |
@@ -59,7 +59,7 @@ This is a concept file with following syntax for each concept.
      |Attribute Value In JSON Template|Is Data Store Used?|Data Store Type|Data Store Variable Name|Attribute Value To Be Set|
      |#subjectId                      |n                  |               |                        |Network Security2        |
      |#title                          |n                  |               |                        |Info Security2           |
-     |#status                         |n                  |               |                        |false                    |
+     |#status                         |n                  |               |                        |true                     |
      |#previewcardIds                 |n                  |               |                        |true                     |
      |#skuId                          |n                  |               |                        |12345                    |
      |#bookAuthor                     |n                  |               |                        |Anoma Gamage             |
@@ -99,10 +99,10 @@ This is a concept file with following syntax for each concept.
      |Attribute Value In JSON Template|Is Data Store Used?|Data Store Type|Data Store Variable Name|Attribute Value To Be Set|
      |#subjectId                      |n                  |               |                        |Information Technology1  |
      |#title                          |n                  |               |                        |Network Security1        |
-     |#status                         |n                  |               |                        |false                    |
+     |#status                         |n                  |               |                        |true                     |
      |#previewcardIds                 |n                  |               |                        |true                     |
      |#skuId                          |n                  |               |                        |12345                    |
-     |#bookAuthor                     |n                  |               |                        |KLGamage                 |
+     |#bookAuthor                     |n                  |               |                        |KLGamage                |
      |#bookTitle                      |n                  |               |                        |Network Enhancement      |
      |#description                    |n                  |               |                        |Security Test in mobile  |
      |#id1                            |y                  |scenario       |expertDeckId5           |                         |

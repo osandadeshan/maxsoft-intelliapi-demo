@@ -36,9 +36,9 @@ This is a concept file with following syntax for each concept.
      |#notificationTime                  |09:30                                                       |
      |#parentDeckId                      |13123123dsfsd231                                            |
      |#progress                          |45                                                          |
-     |#price                             |0                                                           |
+     |#price                             |99                                                          |
      |#purchasedDate                     |2018-01-19T07:10:20.943Z                                    |
-     |#sku                               |com.pearsoned.smartflashcardsmvp.expertdecktier0            |
+     |#sku                               |test.purchase1                                              |
      |#starred                           |false                                                       |
      |#status                            |In Progress                                                 |
      |#tags1                             |API tag                                                     |

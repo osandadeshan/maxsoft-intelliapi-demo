@@ -114,7 +114,7 @@ This is a concept file with following syntax for each concept.
      |Attribute Value In JSON Template|Is Data Store Used?|Data Store Type|Data Store Variable Name|Attribute Value To Be Set|
      |#subjectId                      |n                  |               |                        |Information Security     |
      |#title                          |n                  |               |                        |<bundleName>             |
-     |#status                         |n                  |               |                        |false                    |
+     |#status                         |n                  |               |                        |true                     |
      |#previewcardIds                 |n                  |               |                        |true                     |
      |#skuId                          |n                  |               |                        |12345                    |
      |#skuId                          |n                  |               |                        |12345                    |
