@@ -1,3 +1,5 @@
+## Setup Guide
+
 ### Pre Requisites
 1. Java
 2. Maven
@@ -10,11 +12,11 @@
 `choco install gauge`
 
 3. Open Command Prompt and execute following commands. \
-`gauge install java`
-`gauge install html-report`
-`gauge install json-report`
-`gauge install xml-report`
-`gauge install spectacle`
+`gauge install java` \
+`gauge install html-report` \
+`gauge install json-report` \
+`gauge install xml-report` \
+`gauge install spectacle` \
 `gauge install flash`
 
 4. You can check the installation using the following command. \
