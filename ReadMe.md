@@ -1,10 +1,14 @@
 # Setup Guide
 
+
 ### Pre Requisites
 1. Java
 2. Maven
 
+
+
 ### How to Install Gauge Core
+
 **On Windows**
 1. Install Chocolatey by executing the following command. \
 ` @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString(‘https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
@@ -12,12 +16,14 @@
 2. Install Gauge by executing the following command. \
 `choco install gauge`
 
+
 **On MacOS**
 1. Update Homebrew. \
 `brew update`
 
 2. Install Gauge using Homebrew. \
 `brew install gauge`
+
 
 **On Linux**
 1. First, add Gauge’s GPG key with this command. \
@@ -29,6 +35,8 @@
 3. Finally, install Gauge using these commands. \
 `sudo apt-get update` \
 `sudo apt-get install gauge`
+
+
 
 ### How to Install Gauge Plugins
 1. Open Command Prompt and execute following commands. \
@@ -55,6 +63,8 @@
     spectacle (<version number>)
     xml-report (<version number>)
 ```
+
+
 
 ### MaxSoft IntelliAPI Tutorials
 1. [MaxSoft — IntelliAPI](https://medium.com/@osanda.deshan/maxsoft-ata-framework-for-api-test-automation-9cffd25a0b15 "MaxSoft — IntelliAPI")
