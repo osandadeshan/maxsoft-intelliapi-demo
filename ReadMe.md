@@ -4,7 +4,7 @@
 ### Pre Requisites
 1. Java
 2. Maven
-
+<br /> <br />
 
 
 ### How to Install Gauge Core
