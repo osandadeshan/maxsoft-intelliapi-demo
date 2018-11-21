@@ -1,13 +1,13 @@
 # Setup Guide
 <br />
 
-### Pre Requisites
+## Pre Requisites
 1. Java
 2. Maven
-<br /> <br /> <br />
+<br /> <br /> <br /> <br />
 
 
-### How to Install Gauge Core
+## How to Install Gauge Core
 <br />
 
 **On Windows**
@@ -41,7 +41,7 @@
 
 <br /> <br /> <br />
 
-### How to Install Gauge Plugins
+## How to Install Gauge Plugins
 1. Open Command Prompt and execute following commands. \
 `gauge install java` \
 `gauge install html-report` \
@@ -69,7 +69,7 @@
 
 <br /> <br /> <br />
 
-### MaxSoft IntelliAPI Tutorials
+## MaxSoft IntelliAPI Tutorials
 1. [MaxSoft — IntelliAPI](https://medium.com/@osanda.deshan/maxsoft-ata-framework-for-api-test-automation-9cffd25a0b15 "MaxSoft — IntelliAPI")
 2. [How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 1](https://medium.com/@osanda.deshan/how-to-use-maxsoft-ata-framework-for-api-test-automation-e5966185fa33 "How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 1")
 3. [How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 2](https://medium.com/@osanda.deshan/how-to-use-maxsoft-ata-framework-for-api-test-automation-tutorial-2-53b50c613f42 "How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 2")
