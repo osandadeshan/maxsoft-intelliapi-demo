@@ -1,11 +1,11 @@
 # Setup Guide
 \
-\
+
 ### Pre Requisites
 1. Java
 2. Maven
-
-
+\
+\
 
 ### How to Install Gauge Core
 
