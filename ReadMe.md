@@ -3,13 +3,13 @@
 2. Maven
 
 ### How to Install and Configure Gauge
-1. Install Chocolatey by executing the following command
+1. Install Chocolatey by executing the following command. \
 ` @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString(‘https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 
-2. Install Gauge by executing the following command
+2. Install Gauge by executing the following command. \
 `choco install gauge`
 
-3. Open Command Prompt and execute following commands
+3. Open Command Prompt and execute following commands. \
 `gauge install java`
 `gauge install html-report`
 `gauge install json-report`
@@ -17,7 +17,7 @@
 `gauge install spectacle`
 `gauge install flash`
 
-4. You can check the installation using the following command. 
+4. You can check the installation using the following command. \
 `gauge -v`
 
 	If the installation is success, it will output like this:
