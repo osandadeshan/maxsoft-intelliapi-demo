@@ -76,3 +76,16 @@
 4. [How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 3](https://medium.com/@osanda.deshan/how-to-use-maxsoft-ata-framework-for-api-test-automation-tutorial-3-160f81e404f1 "How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 3")
 5. [How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 4](https://medium.com/@osanda.deshan/how-to-use-maxsoft-ata-framework-for-api-test-automation-tutorial-4-5fb265ca5eaf "How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 4")
 6. [How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 5](https://medium.com/@osanda.deshan/how-to-use-maxsoft-ata-framework-for-api-test-automation-tutorial-5-3b2c22328233 "How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 5")
+
+<br /> <br /> <br />
+
+## License
+
+![MIT License](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png)
+MaxSoft IntelliAPI is released under [MIT License](https://opensource.org/licenses/MIT)
+
+<br /> <br /> <br />
+
+## Copyright
+
+Copyright 2018 MaxSoft.
