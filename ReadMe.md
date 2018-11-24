@@ -81,7 +81,7 @@
 
 ## License
 
-![MIT License](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png)
+![MIT License](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png = 128x128)
 MaxSoft IntelliAPI is released under [MIT License](https://opensource.org/licenses/MIT)
 
 <br /> <br /> <br />
