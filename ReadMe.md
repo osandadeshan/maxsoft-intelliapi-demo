@@ -105,6 +105,24 @@ The main reason for developing this framework is to provide an easy way for Tech
 7. [How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 5](https://medium.com/@osanda.deshan/how-to-use-maxsoft-ata-framework-for-api-test-automation-tutorial-5-3b2c22328233 "How to use MaxSoft IntelliAPI for API Test Automation? — Tutorial 5")
 <br />
 
+## How to build the MaxSoft IntelliAPI JAR file
+1) Get a clone of this project.
+2) Open the command prompt. 
+3) Navigate to the project directory. \
+`cd <project_dir>`
+4) Execute this command. \
+`mvn clean install -DskipTests`
+<br />
+
+## How to test the project code
+1) Open the command prompt.
+2) Navigate to the directory of the **Dev BVT.bat** file. \
+`cd <project_dir\bat_files\test_runner_bats>`
+3) Enter the name of the **.bat** file and the extension. \
+`Dev BVT.bat`
+4) Press **Enter**.
+<br />
+
 ## License
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/> [MaxSoft IntelliAPI](https://medium.com/intelliapi) is released under [MIT License](https://opensource.org/licenses/MIT)
 
