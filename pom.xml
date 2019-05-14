@@ -17,6 +17,11 @@
             <systemPath>${project.basedir}/ext/MaxSoft-IntelliAPI-v1.2.0.jar</systemPath>
         </dependency>
         <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
             <groupId>org.knowm.xchart</groupId>
             <artifactId>xchart</artifactId>
             <version>3.5.2</version>
