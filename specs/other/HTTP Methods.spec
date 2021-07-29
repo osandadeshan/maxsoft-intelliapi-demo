@@ -55,13 +55,13 @@ tags: http_methods, regression
 
    |Path Name|Is Data Store Used?|Data Store Type|Data Store Variable Name|Path Value|
    |---------|-------------------|---------------|------------------------|----------|
-   |userId   |no                 |               |                        |12        |
+   |userId   |no                 |               |                        |1         |
 * And the user set the request attributes using data stores as follows
 
    |Attribute Value In JSON Template|Is Data Store Used?|Data Store Type|Data Store Variable Name|Attibute Value To Be Set|
    |--------------------------------|-------------------|---------------|------------------------|------------------------|
    |#name                           |no                 |               |                        |Osanda                  |
-   |#email                          |no                 |               |                        |osanda@gmail.com        |
+   |#email                          |no                 |               |                        |osa@gmail.com           |
 * When the user invokes the API
 * Then the status code for the request is "200"
 * And the JSON Path Assertions for the response should be equal to the values inside the data stores
@@ -69,4 +69,4 @@ tags: http_methods, regression
    |JSON Path   |Is Data Store Used?|Data Store Type|Data Store Variable Name|Expected Value  |
    |------------|-------------------|---------------|------------------------|----------------|
    |$.data.name |no                 |               |                        |Osanda          |
-   |$.data.email|no                 |               |                        |osanda@gmail.com|
+   |$.data.email|no                 |               |                        |osa@gmail.com   |
